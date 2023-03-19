@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.2/iconfont/material-icons.min.css" integrity="sha512-y9glprRcVESvYY3suAqBUYXx0ySbQNvbzzgvLy9F2o38Y7XCNeq/No2gnHjV3+Rjyq5ijoPZRMXotpdw6jcG4g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="config-page.component.scss">
+    <title>Configuracion</title>
+</head>
+
+<body>
+    <app-navigator></app-navigator>
+
+    <div class="container container2">
+        <h1>Administrador <span class="badge badge-info">Equipos</span></h1>
+
+        <div class="container-fluid p-0" style="margin-top: 10vh;">
+            <table class="table table-sm mt-2 mb-4 table-borderless">
+                <tbody>
+                    <tr style="margin-top: 5vh;">
+                        <th>Tiempo de Trabajo</th>
+                    </tr>
+                    <tr>                        
+                        <td><input type="number" [(ngModel)]="tiempoTrabajoConfiguracion" class="form-control form-control-sm" name="nombre" min="1"></td>
+                    </tr>
+                    <tr><br/><br/><br/></tr>
+                    <tr>
+                        <th>Tiempo de Descanso</th>
+                    </tr>
+                    <tr>
+                        <td><input type="number" [(ngModel)]="tiempoDescansoConfiguracion" class="form-control form-control-sm" name="nombre" min="0"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <br/><br/>
+
+            <div class="row">
+                <div class="col-12 d-grid gap-2">
+                    <button type="button" class="btn btn-primary btn-sm"
+                        (click)="modificarDatos()">Realizar Cambios</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
