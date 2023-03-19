@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1679210090741,
-  "index": "/index.html",
+  "timestamp": 1679210217269,
+  "index": "/prueba/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -11,13 +11,13 @@
         "ignoreVary": true
       },
       "urls": [
-        "/favicon.ico",
-        "/index.html",
-        "/main.9a720405839e7608.js",
-        "/manifest.webmanifest",
-        "/polyfills.4709fd955acb2242.js",
-        "/runtime.7ae29a296d479790.js",
-        "/styles.efb060b91c819d6c.css"
+        "/prueba/favicon.ico",
+        "/prueba/index.html",
+        "/prueba/main.9a720405839e7608.js",
+        "/prueba/manifest.webmanifest",
+        "/prueba/polyfills.4709fd955acb2242.js",
+        "/prueba/runtime.7ae29a296d479790.js",
+        "/prueba/styles.efb060b91c819d6c.css"
       ],
       "patterns": []
     },
@@ -29,35 +29,35 @@
         "ignoreVary": true
       },
       "urls": [
-        "/assets/icons/icon-128x128.png",
-        "/assets/icons/icon-144x144.png",
-        "/assets/icons/icon-152x152.png",
-        "/assets/icons/icon-192x192.png",
-        "/assets/icons/icon-384x384.png",
-        "/assets/icons/icon-512x512.png",
-        "/assets/icons/icon-72x72.png",
-        "/assets/icons/icon-96x96.png"
+        "/prueba/assets/icons/icon-128x128.png",
+        "/prueba/assets/icons/icon-144x144.png",
+        "/prueba/assets/icons/icon-152x152.png",
+        "/prueba/assets/icons/icon-192x192.png",
+        "/prueba/assets/icons/icon-384x384.png",
+        "/prueba/assets/icons/icon-512x512.png",
+        "/prueba/assets/icons/icon-72x72.png",
+        "/prueba/assets/icons/icon-96x96.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/index.html": "5eabf20ce8123a69890ebe431d4aa4ac24c25ed9",
-    "/main.9a720405839e7608.js": "9e532d7ca2464069ba3127a0c58407887ffa3fe5",
-    "/manifest.webmanifest": "d48cd7c6091aaf5ced6917fd4b01aae45294844d",
-    "/polyfills.4709fd955acb2242.js": "e84ccb31e4635abe840faa80b63e4b3d65ce4212",
-    "/runtime.7ae29a296d479790.js": "12cfdfd450f222fe2f70ddee2f8c81d4e8b4d5e7",
-    "/styles.efb060b91c819d6c.css": "985bfdb2e9f2900c9b27abfbd73cb4b73046fe31"
+    "/prueba/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/prueba/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/prueba/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/prueba/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/prueba/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/prueba/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/prueba/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/prueba/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/prueba/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/prueba/index.html": "f80465fc5b41c46cf37e27b85410b9dbfdddd301",
+    "/prueba/main.9a720405839e7608.js": "9e532d7ca2464069ba3127a0c58407887ffa3fe5",
+    "/prueba/manifest.webmanifest": "d48cd7c6091aaf5ced6917fd4b01aae45294844d",
+    "/prueba/polyfills.4709fd955acb2242.js": "e84ccb31e4635abe840faa80b63e4b3d65ce4212",
+    "/prueba/runtime.7ae29a296d479790.js": "12cfdfd450f222fe2f70ddee2f8c81d4e8b4d5e7",
+    "/prueba/styles.efb060b91c819d6c.css": "985bfdb2e9f2900c9b27abfbd73cb4b73046fe31"
   },
   "navigationUrls": [
     {
