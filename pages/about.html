@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Optimum Star</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+  <div class="banner">
+    <div class="container d-flex align-items-center justify-content-center pt-2">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="modal" data-bs-target="#fullscreenModal">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link lett" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link lett" href="../pages/index.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link lett" href="../pages/index.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container d-flex align-items-center justify-content-center pt-5">
+      <nav class="navbar navbar-dar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="../imgs/OSLogo.png" alt="Logo" width="200" height="200" class="d-inline-block align-text-center">
+          </a>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container d-flex align-items-center justify-content-center pt-3">
+      <h1 class="lett">OPTIMUM STAR</h1>
+
+    </div>
+    <h3 class="mt-2" style="color: #fff; text-align: center;">BUILDING MAINTAINANCE</h3>
+  </div>
+
+  <div class="container mt-5">
+    
+    <h1 style="text-align: center;">Mission</h1>
+    <p style="text-align: justify;">Our main goal is to provide customers with a clean, safe, and healthy environment following high standards in our services. It is important for us to build long-term relationships with our clients to better understand their needs and provide exceptional service while also implementing maintenance solutions to improve our clientele's facilities.</p>
+
+    <h1 style="text-align: center;">Vision</h1>
+    <p style="text-align: justify;">Become the most trusted customer satisfaction company in British Columbia and make a positive impact in our community by applying Optimum Star's main values.</p>
+    <ul>
+        <li>Safety and Sustainability- Safeguarding the health and well being of our clients, our staff, and the environment.</li>
+        <li>Trusting long-term relationships- Treating everyone with dignity and respect while building strong connections with clients and staff.</li>
+        <li>Attention to detail- With Optimum Star we have highly trained workers who pay attention to detail to make sure nothing is left unclean.</li>
+        <li>Responsible and Reliable-We make sure to provide the appropriate equipment for our workers to make sure everything is in top condition.</li>
+    </ul>
+    <h1 style="text-align: center;">History</h1>
+    <p style="text-align: justify;">Optimum Star is a building maintenance company owned by Rodolfo Contreras that delivers
+        exceptional customer service, trusting relationships with clients and staff and follows thorough
+        safety procedures. The company was founded in 1993 by Markus Fankhauser. He always had a
+        positive attitude and was quick to respond to the client's requests. Through his hard work and
+        dedication, the company has grown significantly.
+        As a building maintenance company, we have been through different experiences such as the
+        Covid-19 pandemic. It was a difficult time because most of the businesses in Vancouver were
+        temporarily closed but our company continued uninterruptedly servicing our existing
+        customers. Despite all the changes we persevered by accommodating and responding promptly
+        to each building's needs. This made a positive impact which solidified our existing contracts and
+        opened doors to new contracts.
+        Present day we continue to grow and be a part of the everyday lives of our clients by delivering
+        satisfaction through the services we provide.</p>
+  </div>
+
+  <div class="modal fade" id="fullscreenModal" tabindex="-1" aria-labelledby="fullscreenModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="fullscreenModalLabel">OPTIMUM STAR</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <ul class="list-group">
+            <li class="list-group-item">Inicio</li>
+            <li class="list-group-item">Acerca de</li>
+            <li class="list-group-item">Servicios</li>
+            <li class="list-group-item">Contacto</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5>Address</h5>
+          <p>PO Box 19409
+            Burnaby RPO Metrotown,</p>
+          <p>BC, V5H 4J8</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Contact</h5>
+          <p>Email: info@optimumstarbc.ca</p>
+          <p>Phone: 778-6823607</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Social</h5>
+          <div class="social-icons">
+            <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+          </div>
+
+        </div>
+      </div>
+      <hr>
+      <p class="text-center" id="currentDate">
+        <script>
+          var currentDateElement = document.getElementById("currentDate");
+          const currentDate = new Date();
+          var formattedDate = currentDate.toISOString().slice(0, 4);
+          currentDateElement.textContent = "© " + formattedDate;</script> Optimum Star.
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

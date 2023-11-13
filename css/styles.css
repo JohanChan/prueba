@@ -1,0 +1,121 @@
+.banner {
+    background-image: url(../imgs/vancouver6.jpg);
+    height: 85vh;
+    
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Needed to position the navbar */
+    position: relative;
+    /*opacity: 0.9;*/
+    /*filter: contrast(100%);*/
+    backdrop-filter: blur(40px);
+}
+
+.lett {
+    color: #fff;
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+
+/* Personaliza el fondo del modal para hacerlo menos transparente */
+.modal-content {
+    background-color: rgba(255, 255, 255, 0.9);
+    /* Fondo semi-transparente del modal */
+    border: none;
+}
+
+/* Personaliza el estilo del modal */
+.modal-dialog {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.modal-body {
+    padding: 2rem;
+}
+
+.list-group-item {
+    background-color: rgba(255, 255, 255, 0.5);
+    /* Fondo semi-transparente para resaltar elementos de la lista */
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; /* Espaciado entre las cards */
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.card {
+    position: relative;
+    width: 280px; /* Ajusta el ancho según tus necesidades */
+    height: 300px; /* Ajusta la altura según tus necesidades */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s, cursor 0.3s;
+    margin-bottom: 40px;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Rotación al pasar el ratón sobre la card */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-content {
+    padding: 16px;
+}
+
+.card-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.card-description {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.footer {
+
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa; /* Color de fondo del footer */
+    text-align: center;
+    padding: 10px 0;
+}
+
+body {
+    margin-bottom: 60px; /* Para evitar que el contenido se solape con el footer */
+}
+
+.footer {
+    background-color: #f8f9fa; /* Color de fondo del footer */
+    padding: 20px 0;
+}
+
+.footer p {
+    margin-bottom: 0; /* Evitar el espacio adicional debajo del párrafo */
+}
+
+.social-icons i {
+    font-size: 24px;
+    margin-right: 10px;
+}
