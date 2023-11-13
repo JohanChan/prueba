@@ -144,14 +144,18 @@
       </div>
       <hr>
       <p class="text-center" id="currentDate">
-        <script>
-          var currentDateElement = document.getElementById("currentDate");
-          const currentDate = new Date();
-          var formattedDate = currentDate.toISOString().slice(0, 4);
-          currentDateElement.textContent = "© " + formattedDate;</script> Optimum Star.
+       Optimum Star.
       </p>
     </div>
   </footer>
+
+  <script>
+    var currentDateElement = document.getElementById("currentDate");
+    const currentDate = new Date();
+    var formattedDate = currentDate.toISOString().slice(0, 4);
+    currentDateElement.textContent = "© " + formattedDate;
+
+  </script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
