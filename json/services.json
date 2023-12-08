@@ -1,0 +1,28 @@
+{
+    "services": [
+        {
+            "name": "Prueba",
+            "description": "probando",
+            "image": "imagen :v",
+            "season": "Wi"
+        },
+        {
+            "name": "",
+            "description": "",
+            "image": "",
+            "season": "Fa"
+        },
+        {
+            "name": "",
+            "description": "",
+            "image": "",
+            "season": "Su"
+        },
+        {
+            "name": "",
+            "description": "",
+            "image": "",
+            "season": "Sp"
+        }
+    ]
+}
