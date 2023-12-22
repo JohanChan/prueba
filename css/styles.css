@@ -331,3 +331,9 @@ div span{
 .card{
     border: none;
 }
+
+.center-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
