@@ -6,3 +6,11 @@ function index() {
 }
 
 index();
+
+function showPhoneNumber() {
+    document.getElementById('phoneNumber').classList.add('show-number');
+}
+
+function hidePhoneNumber() {
+    document.getElementById('phoneNumber').classList.remove('show-number');
+}
