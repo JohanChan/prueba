@@ -356,3 +356,8 @@ div span{
 .floating-button:hover {
     background-color: #0056b3;
 }
+
+  .carousel-caption{
+    margin-top: 0px;
+    text-align: start;
+  }
