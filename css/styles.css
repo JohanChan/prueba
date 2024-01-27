@@ -357,6 +357,12 @@ div span{
     background-color: #0056b3;
 }
 
+  .carousel-caption{
+    margin-top: 0px;
+    text-align: start;
+  }
+
+
 .fa-snowflake {
 	color: #B1CAF6;
 	position: absolute;
