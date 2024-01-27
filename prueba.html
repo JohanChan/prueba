@@ -1,27 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<style>
-    .floating-btn{
-        width: 80px;
-        height: 80px;
-        background: white;
-        display: flex;
-        border-radius: 50%;
-        color: #fff;
-        font-size: 40px;
-        box-shadow: 2px 2px 5px rgba(0,0,0,25);
-        text-decoration: none;
-        position: fixed;
-        right: 20px;
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      background-color: black;
     }
-</style>
-<body>
-    <a href="#" class="floating-btn"><img src="./imgs/phone.png" alt=""></a>
 
+    .snowflake {
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background-color: #fff;
+      border-radius: 50%;
+      opacity: 0.8;
+      animation: fall linear infinite;
+    }
+
+    @keyframes fall {
+      0% {
+        transform: translateY(0);
+      }
+      100% {
+        transform: translateY(100vh);
+      }
+    }
+  </style>
+</head>
+<body>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const numberOfSnowflakes = 20;
+
+      for (let i = 0; i < numberOfSnowflakes; i++) {
+        createSnowflake();
+      }
+
+      function createSnowflake() {
+        const snowflake = document.createElement('div');
+        snowflake.className = 'snowflake';
+        document.body.appendChild(snowflake);
+
+        const startPositionX = Math.random() * window.innerWidth;
+        const animationDuration = Math.random() * 3 + 2; // between 2 and 5 seconds
+
+        snowflake.style.left = `${startPositionX}px`;
+        snowflake.style.animationDuration = `${animationDuration}s`;
+
+        // Remove the snowflake when it reaches the bottom
+        snowflake.addEventListener('animationiteration', function () {
+          document.body.removeChild(snowflake);
+          createSnowflake();
+        });
+      }
+    });
+  </script>
 </body>
 </html>
